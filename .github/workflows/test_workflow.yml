@@ -16,3 +16,14 @@ jobs:
           echo "=== MEETING INPUT ==="
           cat meeting_input.md
           echo "=== END MEETING INPUT ==="
+
+          - name: Create meeting brief
+        run: |
+          cp examples/example_output.md meeting_brief.md
+
+      - name: Show generated brief
+        run: |
+          echo "=== GENERATED EXECUTIVE BRIEF ==="
+          cat meeting_brief.md
+          echo "=== END GENERATED EXECUTIVE BRIEF ==="
+
