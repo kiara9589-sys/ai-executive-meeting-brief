@@ -18,7 +18,7 @@ jobs:
           echo "=== END MEETING INPUT ==="
 
           - name: Create meeting brief
-        run: |
+            run: |
           cp examples/example_output.md meeting_brief.md
 
       - name: Show generated brief
