@@ -47,3 +47,53 @@ Structured Executive Brief
         ↓
 Executive Review & Decision-Making
 
+## Project Structure
+
+ai-executive-meeting-brief/
+│
+├── README.md
+├── meeting_brief_prompt.md
+│
+└── examples/
+    ├── example_meeting.md
+    └── example_output.md
+
+## Example
+The examples folder contains a fictional quarterly budget meeting showing the transformation from meeting information into an executive briefing.
+
+## Input
+The AI receives information about:
+Meeting objective
+Attendees
+Previous context
+Current updates
+Open questions
+Decisions required
+Follow-up items
+
+## Output
+The AI organizes the information into a concise briefing that helps the executive quickly understand the meeting and prepare for decisions.
+
+## Design Principles
+The workflow is designed around several principles:
+
+Concise
+Executive information should be easy to scan and prioritize.
+
+Action-oriented
+The brief should highlight decisions, questions, and follow-up actions.
+
+Reliable
+The AI should not invent information that was not provided.
+
+Human-in-the-loop
+AI supports preparation and organization, while the executive remains responsible for judgment and decision-making.
+
+## Why I Built It
+I wanted to explore how AI can automate repetitive executive-support tasks while preserving human judgment.
+The project is inspired by real executive support workflows where preparation, prioritization, organization, and follow-through are essential.
+
+## Current Status
+This is a personal AI-assisted workflow prototype exploring practical applications of AI in executive operations.
+Future iterations may include integrations with calendars, meeting notes, email, and automated task tracking.
+
