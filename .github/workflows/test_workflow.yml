@@ -1,12 +1,18 @@
-name: Test AI Meeting Brief Workflow
+name: AI Executive Meeting Brief
 
 on:
   workflow_dispatch:
 
 jobs:
-  test-workflow:
+  prepare-meeting:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Confirm workflow is running
-        run: echo "AI Executive Meeting Brief workflow is working!"
+      - name: Get repository files
+        uses: actions/checkout@v4
+
+      - name: Read meeting input
+        run: |
+          echo "=== MEETING INPUT ==="
+          cat meeting_input.md
+          echo "=== END MEETING INPUT ==="
