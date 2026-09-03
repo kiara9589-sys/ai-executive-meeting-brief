@@ -1,0 +1,12 @@
+name: Test AI Meeting Brief Workflow
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-workflow:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Confirm workflow is running
+        run: echo "AI Executive Meeting Brief workflow is working!"
