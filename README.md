@@ -2,54 +2,48 @@
 
 An AI-assisted workflow designed to help executives prepare for meetings faster and more effectively.
 
+## Overview
+
+Executive meetings often require reviewing information from multiple sources, understanding the context, identifying important decisions, and preparing follow-up actions.
+
+This project explores how AI can turn unstructured meeting information into a concise and structured executive briefing.
+
 ## The Problem
 
-Executive meetings often require reviewing information from different sources, including previous notes, emails, documents, and meeting context.
+Preparing for meetings manually can be time-consuming.
 
-Preparing this information manually can be time-consuming and makes it easier for important details or follow-up actions to be missed.
+Important information may be spread across notes, emails, documents, previous meeting discussions, and action items.
+
+This can make it harder to quickly identify:
+
+- What the meeting is about
+- What information matters most
+- Which decisions are required
+- What questions should be asked
+- What actions need to happen next
 
 ## The Solution
 
-This project explores how AI can transform unstructured meeting information into a concise executive briefing.
+This project uses an AI-assisted workflow to transform meeting information into a structured executive brief.
 
-The briefing is designed to include:
+The workflow is designed to produce:
 
 - Meeting objective
 - Key context
 - Important information
 - Decisions required
 - Questions to consider
-- Follow-up actions
-
-## Why I Built It
-
-I wanted to explore how AI could automate repetitive executive-support tasks while keeping human judgment in the loop.
-
-The project is inspired by real executive support workflows, where preparation, prioritization, organization, and follow-through are essential.
+- Action items
+- Missing or uncertain information
 
 ## How It Works
 
-1. Meeting information is collected.
-2. The information is provided to an AI assistant.
-3. AI organizes the information into a structured executive brief.
-4. The executive reviews the brief and uses it to prepare for the meeting.
-5. Key actions and follow-ups can be identified for continued tracking.
+```text
+Meeting Information
+        ↓
+AI Executive Assistant Prompt
+        ↓
+Structured Executive Brief
+        ↓
+Executive Review & Decision-Making
 
-## Example Use Case
-
-A finance executive has an upcoming leadership meeting about the quarterly budget.
-
-The input may include:
-
-- Meeting topic
-- Attendees
-- Previous meeting notes
-- Relevant updates
-- Open questions
-- Pending decisions
-
-The AI then turns this information into a concise briefing that highlights what the executive needs to know and what decisions may be required.
-
-## Current Status
-
-This is a personal AI and automation project exploring practical applications of AI in executive operations.
